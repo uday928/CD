@@ -8,7 +8,6 @@ def validate_password(password):
     # Password: At least 8 characters, at least one uppercase letter, one lowercase letter, one digit, and one special character
     pattern = r'^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^A-Za-z\d\s])(?=.*[A-Za-z\d\s]).{8,}$'
     return bool(re.match(pattern, password))
-
 # Input and validation
 username = input("Enter username: ")
 password = input("Enter password: ")
