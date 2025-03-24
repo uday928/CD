@@ -32,6 +32,5 @@ int main(){
     printf("Number of symbol:%d\n",symbolCount);
     return 0;
 }
-
 // IP: any sentence with special symbol, vowels and numbers 
 //  i.e. Hello#123
